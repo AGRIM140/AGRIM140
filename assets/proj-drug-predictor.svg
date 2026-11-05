@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 210" width="100%" height="100%">
+  <rect x="1" y="1" width="918" height="208" fill="#D6D0C4" stroke="#242424" stroke-width="2" />
+  <line x1="3" y1="3" x2="917" y2="3" stroke="#EAE6DC" stroke-width="2" />
+  <line x1="3" y1="3" x2="3" y2="207" stroke="#EAE6DC" stroke-width="2" />
+  <line x1="3" y1="207" x2="917" y2="207" stroke="#77766F" stroke-width="2" />
+  <line x1="917" y1="3" x2="917" y2="207" stroke="#77766F" stroke-width="2" />
+  <rect x="10" y="8" width="900" height="24" fill="#242424" />
+  <rect x="14" y="12" width="16" height="16" fill="#607D8B" />
+  <text x="38" y="24" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="12" font-weight="bold" fill="#EAE6DC" letter-spacing="1">
+    SCHEMATIC_05 // DRUG_RATING_PRED: REGRESSION & STREAMLIT INFERENCE CONSOLE
+  </text>
+  <text x="745" y="24" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" font-weight="bold" fill="#607D8B">
+    [SYS_MODE: VERIFIED]
+  </text>
+  <rect x="10" y="38" width="540" height="162" fill="#242424" stroke="#77766F" stroke-width="2" />
+  <rect x="22" y="48" width="130" height="124" fill="#242424" stroke="#77766F" stroke-width="1.5" />
+  <text x="28" y="62" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="9" font-weight="bold" fill="#EAE6DC">01_DATASET_MATRIX</text>
+  <rect x="30" y="72" width="114" height="18" fill="#607D8B" />
+  <text x="36" y="84" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="8" font-weight="bold" fill="#EAE6DC">FEATURE_EXTRACTION</text>
+  <text x="30" y="106" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="9" fill="#D6D0C4">[x1] Condition_ID</text>
+  <text x="30" y="120" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="9" fill="#D6D0C4">[x2] Drug_Class</text>
+  <text x="30" y="134" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="9" fill="#D6D0C4">[x3] Side_Effects</text>
+  <text x="30" y="148" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="9" fill="#78966B">[x4] Review_Metrics</text>
+  <line x1="152" y1="110" x2="174" y2="110" stroke="#78966B" stroke-width="2" />
+  <polygon points="174,106 182,110 174,114" fill="#78966B" />
+  <rect x="182" y="48" width="166" height="124" fill="#242424" stroke="#D6D0C4" stroke-width="1.5" />
+  <text x="190" y="62" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="9" font-weight="bold" fill="#EAE6DC">02_RF_REGRESSOR</text>
+  <line x1="198" y1="150" x2="334" y2="150" stroke="#77766F" stroke-width="1.5" />
+  <line x1="198" y1="72" x2="198" y2="150" stroke="#77766F" stroke-width="1.5" />
+  <polyline points="202,142 224,132 246,118 268,114 290,94 312,86 330,78" fill="none" stroke="#78966B" stroke-width="2" />
+  <circle cx="212" cy="138" r="2.5" fill="#EAE6DC" />
+  <circle cx="235" cy="122" r="2.5" fill="#EAE6DC" />
+  <circle cx="258" cy="120" r="2.5" fill="#EAE6DC" />
+  <circle cx="278" cy="102" r="2.5" fill="#EAE6DC" />
+  <circle cx="302" cy="92" r="2.5" fill="#EAE6DC" />
+  <circle cx="322" cy="82" r="2.5" fill="#EAE6DC" />
+  <text x="198" y="164" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="8" fill="#78966B">ENSEMBLE_MEAN: y_hat</text>
+  <line x1="348" y1="110" x2="370" y2="110" stroke="#78966B" stroke-width="2" />
+  <polygon points="370,106 378,110 370,114" fill="#78966B" />
+  <rect x="378" y="48" width="158" height="124" fill="#242424" stroke="#78966B" stroke-width="1.5" />
+  <rect x="378" y="48" width="158" height="16" fill="#78966B" />
+  <text x="384" y="59" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="9" font-weight="bold" fill="#242424">03_STREAMLIT_CLIENT</text>
+  <text x="388" y="78" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="8" fill="#D6D0C4">PARAM_01</text>
+  <line x1="436" y1="75" x2="524" y2="75" stroke="#77766F" stroke-width="2" />
+  <rect x="476" y="71" width="8" height="8" fill="#EAE6DC" />
+  <text x="388" y="94" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="8" fill="#D6D0C4">PARAM_02</text>
+  <line x1="436" y1="91" x2="524" y2="91" stroke="#77766F" stroke-width="2" />
+  <rect x="498" y="87" width="8" height="8" fill="#EAE6DC" />
+  <rect x="388" y="106" width="136" height="54" fill="#242424" stroke="#607D8B" stroke-width="1.5" />
+  <text x="396" y="120" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="8" fill="#EAE6DC">PREDICTED_RATING_OUT:</text>
+  <rect x="396" y="128" width="120" height="12" fill="#77766F" />
+  <rect x="396" y="128" width="98" height="12" fill="#78966B" />
+  <text x="396" y="153" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="8" font-weight="bold" fill="#78966B">REALTIME_INFERENCE: OK</text>
+  <text x="22" y="191" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="10" fill="#77766F">
+    BUS_05 // DATASET-DRIVEN PHARMACEUTICAL RATING REGRESSION & UI
+  </text>
+  <rect x="560" y="38" width="350" height="162" fill="#EAE6DC" stroke="#242424" stroke-width="2" />
+  <rect x="560" y="38" width="350" height="24" fill="#607D8B" stroke="#242424" stroke-width="1.5" />
+  <text x="572" y="54" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" font-weight="bold" fill="#EAE6DC">
+    MODULE_PARAMETERS // PID_0x05
+  </text>
+  <text x="572" y="80" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" font-weight="bold" fill="#242424">ESTIMATOR    :</text>
+  <text x="680" y="80" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" fill="#242424">Random Forest Regressor</text>
+  <text x="572" y="100" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" font-weight="bold" fill="#242424">FRONTEND_UI  :</text>
+  <text x="680" y="100" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" fill="#242424">Streamlit Web Console</text>
+  <text x="572" y="120" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" font-weight="bold" fill="#242424">CORE_STACK   :</text>
+  <text x="680" y="120" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" fill="#242424">Python / Scikit-Learn</text>
+  <text x="572" y="140" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" font-weight="bold" fill="#242424">MODE         :</text>
+  <text x="680" y="140" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" fill="#242424">Continuous Score Pred</text>
+  <line x1="572" y1="154" x2="896" y2="154" stroke="#77766F" stroke-width="1" />
+  <rect x="572" y="164" width="324" height="24" fill="#242424" />
+  <text x="582" y="180" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="10" font-weight="bold" fill="#78966B">
+    OUTPUT: INTERACTIVE RATING & TREND ANALYSIS
+  </text>
+</svg>

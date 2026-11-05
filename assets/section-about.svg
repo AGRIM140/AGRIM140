@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 46" width="100%" height="100%">
+  <rect x="1" y="1" width="918" height="44" fill="#D6D0C4" stroke="#242424" stroke-width="2" />
+  <line x1="3" y1="3" x2="917" y2="3" stroke="#EAE6DC" stroke-width="2" />
+  <line x1="3" y1="43" x2="917" y2="43" stroke="#77766F" stroke-width="2" />
+  <rect x="10" y="8" width="140" height="30" fill="#242424" />
+  <text x="22" y="28" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="14" font-weight="bold" fill="#78966B">SEC_03 // SYS</text>
+  <text x="166" y="28" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="15" font-weight="bold" fill="#242424" letter-spacing="1.5">
+    SYSTEM_INFORMATION & OPERATOR_ARCHITECTURE
+  </text>
+  <rect x="760" y="11" width="146" height="24" fill="#EAE6DC" stroke="#242424" stroke-width="1.5" />
+  <text x="772" y="27" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" font-weight="bold" fill="#242424">IRQ_03: MOUNTED</text>
+</svg>

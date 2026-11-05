@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 210" width="100%" height="100%">
+  <rect x="1" y="1" width="918" height="208" fill="#D6D0C4" stroke="#242424" stroke-width="2" />
+  <line x1="3" y1="3" x2="917" y2="3" stroke="#EAE6DC" stroke-width="2" />
+  <line x1="3" y1="3" x2="3" y2="207" stroke="#EAE6DC" stroke-width="2" />
+  <line x1="3" y1="207" x2="917" y2="207" stroke="#77766F" stroke-width="2" />
+  <line x1="917" y1="3" x2="917" y2="207" stroke="#77766F" stroke-width="2" />
+  <rect x="10" y="8" width="900" height="24" fill="#242424" />
+  <rect x="14" y="12" width="16" height="16" fill="#77766F" />
+  <text x="38" y="24" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="12" font-weight="bold" fill="#EAE6DC" letter-spacing="1">
+    SCHEMATIC_04 // GAN_IMG_RESTORE: ADVERSARIAL RESTORATION & UPSCALING SUITE
+  </text>
+  <text x="740" y="24" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" font-weight="bold" fill="#D6D0C4">
+    [SYS_MODE: RESEARCH]
+  </text>
+  <rect x="10" y="38" width="540" height="162" fill="#242424" stroke="#77766F" stroke-width="2" />
+  <rect x="22" y="48" width="116" height="124" fill="#242424" stroke="#77766F" stroke-width="1.5" />
+  <text x="28" y="62" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="9" font-weight="bold" fill="#EAE6DC">01_RAW_TENSOR</text>
+  <g stroke="#242424" stroke-width="1">
+    <rect x="34" y="72" width="22" height="22" fill="#77766F" />
+    <rect x="56" y="72" width="22" height="22" fill="#242424" />
+    <rect x="78" y="72" width="22" height="22" fill="#607D8B" />
+    <rect x="100" y="72" width="22" height="22" fill="#77766F" />
+    <rect x="34" y="94" width="22" height="22" fill="#607D8B" />
+    <rect x="56" y="94" width="22" height="22" fill="#77766F" />
+    <rect x="78" y="94" width="22" height="22" fill="#D6D0C4" />
+    <rect x="100" y="94" width="22" height="22" fill="#242424" />
+    <rect x="34" y="116" width="22" height="22" fill="#242424" />
+    <rect x="56" y="116" width="22" height="22" fill="#607D8B" />
+    <rect x="78" y="116" width="22" height="22" fill="#77766F" />
+    <rect x="100" y="116" width="22" height="22" fill="#607D8B" />
+  </g>
+  <text x="30" y="153" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="8" fill="#D6D0C4">LOW-RES / BLUR</text>
+  <text x="30" y="164" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="8" fill="#77766F">GAUSSIAN_NOISE</text>
+  <line x1="138" y1="110" x2="160" y2="110" stroke="#78966B" stroke-width="2" />
+  <polygon points="160,106 168,110 160,114" fill="#78966B" />
+  <rect x="168" y="48" width="218" height="124" fill="#242424" stroke="#607D8B" stroke-width="1.5" />
+  <text x="176" y="62" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="9" font-weight="bold" fill="#EAE6DC">
+    02_ADVERSARIAL_GENERATOR_BANK
+  </text>
+  <rect x="178" y="70" width="96" height="36" fill="#607D8B" stroke="#EAE6DC" stroke-width="1" />
+  <text x="184" y="84" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="9" font-weight="bold" fill="#EAE6DC">CycleGAN</text>
+  <text x="184" y="97" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="8" fill="#D6D0C4">Domain Shift</text>
+  <rect x="280" y="70" width="96" height="36" fill="#607D8B" stroke="#EAE6DC" stroke-width="1" />
+  <text x="286" y="84" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="9" font-weight="bold" fill="#EAE6DC">SRGAN (4x)</text>
+  <text x="286" y="97" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="8" fill="#D6D0C4">Super-Res</text>
+  <rect x="178" y="112" width="96" height="36" fill="#242424" stroke="#78966B" stroke-width="1" />
+  <text x="184" y="126" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="9" font-weight="bold" fill="#78966B">Noise2Noise</text>
+  <text x="184" y="139" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="8" fill="#D6D0C4">Blind Denoise</text>
+  <rect x="280" y="112" width="96" height="36" fill="#242424" stroke="#78966B" stroke-width="1" />
+  <text x="286" y="126" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="9" font-weight="bold" fill="#78966B">DeblurGAN</text>
+  <text x="286" y="139" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="8" fill="#D6D0C4">Motion Kernel</text>
+  <text x="178" y="163" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="8" fill="#78966B">
+    LOSS: ADVERSARIAL + PERCEPTUAL (VGG)
+  </text>
+  <line x1="386" y1="110" x2="408" y2="110" stroke="#78966B" stroke-width="2" />
+  <polygon points="408,106 416,110 408,114" fill="#78966B" />
+  <rect x="416" y="48" width="120" height="124" fill="#242424" stroke="#78966B" stroke-width="1.5" />
+  <text x="422" y="62" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="9" font-weight="bold" fill="#78966B">03_RESTORED_HD</text>
+  <rect x="430" y="72" width="92" height="66" fill="#242424" stroke="#EAE6DC" stroke-width="1.5" />
+  <line x1="430" y1="94" x2="522" y2="94" stroke="#78966B" stroke-width="1" />
+  <line x1="430" y1="116" x2="522" y2="116" stroke="#78966B" stroke-width="1" />
+  <line x1="460" y1="72" x2="460" y2="138" stroke="#78966B" stroke-width="1" />
+  <line x1="490" y1="72" x2="490" y2="138" stroke="#78966B" stroke-width="1" />
+  <circle cx="476" cy="105" r="16" fill="none" stroke="#EAE6DC" stroke-width="2" />
+  <circle cx="476" cy="105" r="4" fill="#78966B" />
+  <text x="424" y="153" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="8" fill="#EAE6DC">SHARP_EDGES: OK</text>
+  <text x="424" y="164" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="8" fill="#78966B">ARTIFACT_FREE</text>
+  <text x="22" y="191" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="10" fill="#77766F">
+    BUS_04 // PYTORCH DEEP GENERATIVE IMAGE RESTORATION & ENHANCEMENT
+  </text>
+  <rect x="560" y="38" width="350" height="162" fill="#EAE6DC" stroke="#242424" stroke-width="2" />
+  <rect x="560" y="38" width="350" height="24" fill="#607D8B" stroke="#242424" stroke-width="1.5" />
+  <text x="572" y="54" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" font-weight="bold" fill="#EAE6DC">
+    MODULE_PARAMETERS // PID_0x04
+  </text>
+  <text x="572" y="80" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" font-weight="bold" fill="#242424">DL_FRAMEWORK :</text>
+  <text x="680" y="80" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" fill="#242424">PyTorch (CUDA Tensor)</text>
+  <text x="572" y="100" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" font-weight="bold" fill="#242424">UPSCALING    :</text>
+  <text x="680" y="100" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" fill="#242424">SRGAN & CycleGAN</text>
+  <text x="572" y="120" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" font-weight="bold" fill="#242424">DENOISING    :</text>
+  <text x="680" y="120" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" fill="#242424">Noise2Noise GAN</text>
+  <text x="572" y="140" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" font-weight="bold" fill="#242424">DEBLURRING   :</text>
+  <text x="680" y="140" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" fill="#242424">DeblurGAN Architecture</text>
+  <line x1="572" y1="154" x2="896" y2="154" stroke="#77766F" stroke-width="1" />
+  <rect x="572" y="164" width="324" height="24" fill="#242424" />
+  <text x="582" y="180" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="10" font-weight="bold" fill="#78966B">
+    OUTPUT: MULTI-STAGE IMAGE RECONSTRUCTION
+  </text>
+</svg>

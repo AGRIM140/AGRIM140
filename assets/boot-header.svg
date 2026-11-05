@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 260" width="100%" height="100%">
+  <rect x="1" y="1" width="918" height="258" fill="#D6D0C4" stroke="#242424" stroke-width="2" />
+  <line x1="3" y1="3" x2="917" y2="3" stroke="#EAE6DC" stroke-width="3" />
+  <line x1="3" y1="3" x2="3" y2="257" stroke="#EAE6DC" stroke-width="3" />
+  <line x1="3" y1="257" x2="917" y2="257" stroke="#77766F" stroke-width="3" />
+  <line x1="917" y1="3" x2="917" y2="257" stroke="#77766F" stroke-width="3" />
+  <rect x="14" y="12" width="892" height="28" fill="#607D8B" stroke="#242424" stroke-width="2" />
+  <rect x="22" y="20" width="12" height="12" fill="#EAE6DC" stroke="#242424" stroke-width="1.5" />
+  <text x="42" y="30" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="13" font-weight="bold" fill="#EAE6DC" letter-spacing="1.5">
+    OPTIPLEX // WORKSTATION_OS_BIOS [ROM_REV_2026.X]
+  </text>
+  <g stroke="#242424" stroke-width="1.5">
+    <rect x="780" y="19" width="6" height="14" fill="#242424" />
+    <rect x="792" y="19" width="6" height="14" fill="#242424" />
+    <rect x="804" y="19" width="6" height="14" fill="#242424" />
+    <rect x="816" y="19" width="6" height="14" fill="#242424" />
+    <rect x="840" y="18" width="56" height="16" fill="#242424" />
+  </g>
+  <circle cx="852" cy="26" r="4" fill="#78966B" />
+  <text x="862" y="30" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="10" font-weight="bold" fill="#EAE6DC">PWR</text>
+  <rect x="14" y="48" width="892" height="196" fill="#242424" stroke="#77766F" stroke-width="2" />
+  <g stroke="#77766F" stroke-width="0.5" opacity="0.22">
+    <line x1="16" y1="60" x2="904" y2="60" /><line x1="16" y1="68" x2="904" y2="68" />
+    <line x1="16" y1="76" x2="904" y2="76" /><line x1="16" y1="84" x2="904" y2="84" />
+    <line x1="16" y1="92" x2="904" y2="92" /><line x1="16" y1="100" x2="904" y2="100" />
+    <line x1="16" y1="108" x2="904" y2="108" /><line x1="16" y1="116" x2="904" y2="116" />
+    <line x1="16" y1="124" x2="904" y2="124" /><line x1="16" y1="132" x2="904" y2="132" />
+    <line x1="16" y1="140" x2="904" y2="140" /><line x1="16" y1="148" x2="904" y2="148" />
+    <line x1="16" y1="156" x2="904" y2="156" /><line x1="16" y1="164" x2="904" y2="164" />
+    <line x1="16" y1="172" x2="904" y2="172" /><line x1="16" y1="180" x2="904" y2="180" />
+    <line x1="16" y1="188" x2="904" y2="188" /><line x1="16" y1="196" x2="904" y2="196" />
+    <line x1="16" y1="204" x2="904" y2="204" /><line x1="16" y1="212" x2="904" y2="212" />
+    <line x1="16" y1="220" x2="904" y2="220" /><line x1="16" y1="228" x2="904" y2="228" />
+  </g>
+  <text x="34" y="76" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="12" fill="#78966B" letter-spacing="1">
+    > SYSTEM INITIALIZATION // POST_CHECK: OK
+  </text>
+  <text x="34" y="122" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="38" font-weight="bold" fill="#EAE6DC" letter-spacing="3">
+    AGRIM SINGH
+  </text>
+  <text x="34" y="148" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="15" font-weight="bold" fill="#607D8B" letter-spacing="2">
+    DEVELOPER WORKSTATION // AUTONOMOUS SYSTEMS & AI/ML
+  </text>
+  <line x1="34" y1="164" x2="580" y2="164" stroke="#77766F" stroke-width="1" stroke-dasharray="4,4" />
+  <text x="34" y="188" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="12" fill="#D6D0C4">
+    DEPT   : B.Tech CSE (Data Science) @ SMIT
+  </text>
+  <text x="34" y="208" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="12" fill="#D6D0C4">
+    ACTIVE : Pentagon Rugged Systems Pvt. Ltd. [A-IMCS / AGVS]
+  </text>
+  <text x="34" y="228" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="12" fill="#77766F">
+    FOCUS  : Computer Vision | Robotics | Full-Stack | Backend Engineering
+  </text>
+  <rect x="615" y="66" width="270" height="160" fill="#242424" stroke="#D6D0C4" stroke-width="1.5" />
+  <rect x="615" y="66" width="270" height="24" fill="#D6D0C4" />
+  <text x="625" y="83" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="12" font-weight="bold" fill="#242424">
+    BIOS_STATUS_REGISTER
+  </text>
+  <text x="628" y="112" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="12" fill="#EAE6DC">SYSTEM STATUS :</text>
+  <rect x="752" y="99" width="72" height="18" fill="#78966B" />
+  <text x="760" y="112" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="12" font-weight="bold" fill="#242424">ONLINE</text>
+  <text x="628" y="138" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="12" fill="#EAE6DC">VERSION       : 2026.X</text>
+  <text x="628" y="162" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="12" fill="#EAE6DC">BUS_CLOCK     : SYNC_OK</text>
+  <text x="628" y="186" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="12" fill="#EAE6DC">PERCEPTION    : ROS2/CV</text>
+  <text x="628" y="210" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="12" fill="#78966B">_READY_FOR_INPUT</text>
+</svg>

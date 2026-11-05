@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 210" width="100%" height="100%">
+  <rect x="1" y="1" width="918" height="208" fill="#D6D0C4" stroke="#242424" stroke-width="2" />
+  <line x1="3" y1="3" x2="917" y2="3" stroke="#EAE6DC" stroke-width="2" />
+  <line x1="3" y1="3" x2="3" y2="207" stroke="#EAE6DC" stroke-width="2" />
+  <line x1="3" y1="207" x2="917" y2="207" stroke="#77766F" stroke-width="2" />
+  <line x1="917" y1="3" x2="917" y2="207" stroke="#77766F" stroke-width="2" />
+  <rect x="10" y="8" width="900" height="24" fill="#242424" />
+  <rect x="14" y="12" width="16" height="16" fill="#78966B" />
+  <text x="38" y="24" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="12" font-weight="bold" fill="#EAE6DC" letter-spacing="1">
+    SCHEMATIC_01 // A-IMCS: OFF-ROAD PERCEPTION & ADAPTIVE SIGNATURE PIPELINE
+  </text>
+  <text x="740" y="24" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" font-weight="bold" fill="#78966B">
+    [SYS_MODE: ACTIVE_R&D]
+  </text>
+  <rect x="10" y="38" width="540" height="162" fill="#242424" stroke="#77766F" stroke-width="2" />
+  <g stroke="#77766F" stroke-width="0.5" stroke-dasharray="3,3" opacity="0.35">
+    <line x1="10" y1="78" x2="550" y2="78" />
+    <line x1="10" y1="118" x2="550" y2="118" />
+    <line x1="10" y1="158" x2="550" y2="158" />
+    <line x1="145" y1="38" x2="145" y2="200" />
+    <line x1="280" y1="38" x2="280" y2="200" />
+    <line x1="415" y1="38" x2="415" y2="200" />
+  </g>
+  <rect x="22" y="48" width="145" height="122" fill="#242424" stroke="#607D8B" stroke-width="1.5" />
+  <text x="28" y="62" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="10" font-weight="bold" fill="#EAE6DC">
+    01_SENSOR_INPUT
+  </text>
+  <polygon points="24,135 55,112 95,124 135,102 165,118 165,168 24,168" fill="#607D8B" opacity="0.35" />
+  <polyline points="24,135 55,112 95,124 135,102 165,118" fill="none" stroke="#607D8B" stroke-width="2" />
+  <polygon points="24,152 70,138 120,148 165,134 165,168 24,168" fill="#78966B" opacity="0.35" />
+  <polyline points="24,152 70,138 120,148 165,134" fill="none" stroke="#78966B" stroke-width="1.5" />
+  <path d="M 94 166 A 45 45 0 0 1 134 142" fill="none" stroke="#EAE6DC" stroke-width="1" stroke-dasharray="2,2" />
+  <path d="M 54 142 A 45 45 0 0 1 94 166" fill="none" stroke="#EAE6DC" stroke-width="1" stroke-dasharray="2,2" />
+  <circle cx="62" cy="102" r="2" fill="#78966B" />
+  <circle cx="88" cy="94" r="2" fill="#78966B" />
+  <circle cx="118" cy="88" r="2" fill="#78966B" />
+  <circle cx="144" cy="96" r="2" fill="#78966B" />
+  <text x="28" y="80" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="9" fill="#D6D0C4">RUGD / RELLIS-3D</text>
+  <text x="28" y="92" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="9" fill="#78966B">LiDAR + RGB SYNC</text>
+  <line x1="167" y1="109" x2="195" y2="109" stroke="#78966B" stroke-width="2" />
+  <polygon points="195,105 203,109 195,113" fill="#78966B" />
+  <rect x="203" y="48" width="160" height="122" fill="#242424" stroke="#D6D0C4" stroke-width="1.5" />
+  <text x="211" y="62" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="10" font-weight="bold" fill="#EAE6DC">
+    02_PERCEPTION_CORE
+  </text>
+  <rect x="215" y="72" width="136" height="16" fill="#607D8B" stroke="#EAE6DC" stroke-width="1" />
+  <text x="223" y="84" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="9" font-weight="bold" fill="#EAE6DC">PSP-MobileNet Backbone</text>
+  <rect x="215" y="94" width="30" height="14" fill="#77766F" />
+  <rect x="250" y="94" width="30" height="14" fill="#77766F" />
+  <rect x="285" y="94" width="30" height="14" fill="#77766F" />
+  <rect x="321" y="94" width="30" height="14" fill="#77766F" />
+  <text x="219" y="104" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="8" fill="#EAE6DC">1x1   2x2   3x3   6x6</text>
+  <rect x="215" y="116" width="136" height="44" fill="#242424" stroke="#78966B" stroke-width="1" />
+  <text x="223" y="131" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="9" font-weight="bold" fill="#78966B">ROS 2 / GAZEBO SIM</text>
+  <text x="223" y="144" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="8" fill="#D6D0C4">/nav_msgs/Occupancy</text>
+  <text x="223" y="154" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="8" fill="#D6D0C4">/sensor_msgs/PointCloud2</text>
+  <line x1="363" y1="109" x2="391" y2="109" stroke="#78966B" stroke-width="2" />
+  <polygon points="391,105 399,109 391,113" fill="#78966B" />
+  <rect x="399" y="48" width="138" height="122" fill="#242424" stroke="#78966B" stroke-width="1.5" />
+  <text x="407" y="62" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="10" font-weight="bold" fill="#78966B">
+    03_CAMO_SYNTH
+  </text>
+  <g stroke="#242424" stroke-width="1">
+    <rect x="411" y="72" width="28" height="22" fill="#78966B" />
+    <rect x="439" y="72" width="28" height="22" fill="#607D8B" />
+    <rect x="467" y="72" width="28" height="22" fill="#77766F" />
+    <rect x="495" y="72" width="28" height="22" fill="#78966B" />
+    <rect x="411" y="94" width="28" height="22" fill="#77766F" />
+    <rect x="439" y="94" width="28" height="22" fill="#78966B" />
+    <rect x="467" y="94" width="28" height="22" fill="#D6D0C4" />
+    <rect x="495" y="94" width="28" height="22" fill="#607D8B" />
+    <rect x="411" y="116" width="28" height="22" fill="#607D8B" />
+    <rect x="439" y="116" width="28" height="22" fill="#77766F" />
+    <rect x="467" y="116" width="28" height="22" fill="#78966B" />
+    <rect x="495" y="116" width="28" height="22" fill="#77766F" />
+  </g>
+  <text x="411" y="152" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="9" fill="#EAE6DC">PATTERN: ADAPTIVE</text>
+  <text x="411" y="163" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="9" fill="#78966B">SIG_MGMT: LOCKED</text>
+  <text x="22" y="190" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="10" fill="#77766F">
+    BUS_01 // PENTAGON RUGGED SYSTEMS PVT. LTD. — AGVS & A-IMCS SUBSYSTEM
+  </text>
+  <rect x="560" y="38" width="350" height="162" fill="#EAE6DC" stroke="#242424" stroke-width="2" />
+  <rect x="560" y="38" width="350" height="24" fill="#607D8B" stroke="#242424" stroke-width="1.5" />
+  <text x="572" y="54" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" font-weight="bold" fill="#EAE6DC">
+    MODULE_PARAMETERS // PID_0x01
+  </text>
+  <text x="572" y="80" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" font-weight="bold" fill="#242424">ARCHITECTURE :</text>
+  <text x="680" y="80" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" fill="#242424">PSP-MobileNet SegNet</text>
+  <text x="572" y="100" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" font-weight="bold" fill="#242424">DATASETS     :</text>
+  <text x="680" y="100" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" fill="#242424">RUGD & RELLIS-3D</text>
+  <text x="572" y="120" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" font-weight="bold" fill="#242424">MIDDLEWARE   :</text>
+  <text x="680" y="120" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" fill="#242424">ROS 2 + Gazebo Sim</text>
+  <text x="572" y="140" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" font-weight="bold" fill="#242424">FUSION_BUS   :</text>
+  <text x="680" y="140" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" fill="#242424">LiDAR + RGB Perception</text>
+  <line x1="572" y1="154" x2="896" y2="154" stroke="#77766F" stroke-width="1" />
+  <rect x="572" y="164" width="324" height="24" fill="#242424" />
+  <text x="582" y="180" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="10" font-weight="bold" fill="#78966B">
+    OUTPUT: ADAPTIVE CAMOUFLAGE & SCENE MASKS
+  </text>
+</svg>
