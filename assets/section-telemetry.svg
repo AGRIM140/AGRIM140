@@ -1,4 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 46" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 46" width="100%" height="100%">  <style>
+    @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+    .live-dot { animation: blink 1s infinite; }
+  </style>
+
   <rect x="1" y="1" width="918" height="44" fill="#D6D0C4" stroke="#242424" stroke-width="2" />
   <line x1="3" y1="3" x2="917" y2="3" stroke="#EAE6DC" stroke-width="2" />
   <line x1="3" y1="43" x2="917" y2="43" stroke="#77766F" stroke-width="2" />
@@ -8,5 +12,5 @@
     GITHUB_ANALYTICS // PERFORMANCE_TELEMETRY_MONITOR
   </text>
   <rect x="760" y="11" width="146" height="24" fill="#EAE6DC" stroke="#242424" stroke-width="1.5" />
-  <text x="772" y="27" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" font-weight="bold" fill="#242424">FEED: LIVE_SYNC</text>
+  <text x="772" y="27" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" font-weight="bold" fill="#242424">FEED: LIVE_SYNC <tspan class="live-dot" fill="#78966B">●</tspan></text>
 </svg>

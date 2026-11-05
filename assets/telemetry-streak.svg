@@ -1,9 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 130" width="100%" height="100%">
+  <style>
+    @keyframes pulse-daemon {
+      0%, 100% { fill: #78966B; filter: drop-shadow(0 0 3px #78966B); }
+      50% { fill: #242424; filter: none; }
+    }
+    @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+    .daemon-led { animation: pulse-daemon 1.2s infinite; }
+    .cursor { animation: blink 1s infinite; }
+  </style>
+
   <rect x="1" y="1" width="918" height="128" fill="#D6D0C4" stroke="#242424" stroke-width="2" />
   <line x1="3" y1="3" x2="917" y2="3" stroke="#EAE6DC" stroke-width="2" />
   <line x1="3" y1="127" x2="917" y2="127" stroke="#77766F" stroke-width="2" />
   <rect x="10" y="8" width="900" height="24" fill="#242424" />
-  <rect x="14" y="12" width="16" height="16" fill="#607D8B" />
+  <rect x="14" y="12" width="16" height="16" class="daemon-led" />
   <text x="38" y="24" font-family="'Courier New', Courier, monospace" font-size="12" font-weight="bold" fill="#EAE6DC" letter-spacing="1">
     SYS_MON_03 // CONTINUOUS_DEVELOPER_UPTIME_STREAK_COUNTER
   </text>
@@ -14,7 +24,7 @@
   <g stroke="#77766F" stroke-width="1">
     <rect x="25" y="48" width="260" height="62" fill="#242424" stroke="#78966B" stroke-width="1.5" />
     <text x="35" y="66" font-family="'Courier New', Courier, monospace" font-size="10" fill="#D6D0C4">PRIMARY_UPTIME_STREAK</text>
-    <text x="35" y="96" font-family="'Courier New', Courier, monospace" font-size="24" font-weight="bold" fill="#78966B">ACTIVE // DAILY</text>
+    <text x="35" y="96" font-family="'Courier New', Courier, monospace" font-size="24" font-weight="bold" fill="#78966B">ACTIVE // DAILY<tspan class="cursor">_</tspan></text>
 
     <rect x="310" y="48" width="280" height="62" fill="#242424" stroke="#607D8B" stroke-width="1.5" />
     <text x="320" y="66" font-family="'Courier New', Courier, monospace" font-size="10" fill="#D6D0C4">KERNEL_COMMIT_CADENCE</text>
@@ -25,3 +35,4 @@
     <text x="625" y="96" font-family="'Courier New', Courier, monospace" font-size="22" font-weight="bold" fill="#607D8B">99.98% COMMITTED</text>
   </g>
 </svg>
+

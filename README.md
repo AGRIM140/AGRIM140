@@ -7,6 +7,12 @@
   <img src="./assets/boot-header.svg" width="100%" alt="DELL DIMENSION // AGRIM SINGH WORKSTATION BIOS v2026.X" />
 </div>
 
+<div align="center">
+  <a href="https://agrim140.github.io/AGRIM140/"><kbd>&nbsp;⚡ [RUN_INTERACTIVE_LIVE_WORKSTATION_WEB_OS]&nbsp;</kbd></a><br/>
+  <sub><code>BOOT REAL-TIME INTERACTIVE CLI &amp; VINTAGE CRT INTERFACE IN BROWSER ↗</code></sub>
+</div>
+<br/>
+
 <table width="100%">
   <tr>
     <td width="68%" valign="top">

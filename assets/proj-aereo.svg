@@ -1,4 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 210" width="100%" height="100%">
+  <style>
+    @keyframes data-flow {
+      0% { stroke-dashoffset: 24; }
+      100% { stroke-dashoffset: 0; }
+    }
+    @keyframes pulse-worker {
+      0%, 100% { fill: #607D8B; }
+      50% { fill: #3D4E56; }
+    }
+    .flow-wire {
+      stroke-dasharray: 6, 4;
+      animation: data-flow 1.2s linear infinite;
+    }
+    .worker-pulse { animation: pulse-worker 2s ease-in-out infinite; }
+  </style>
+
   <rect x="1" y="1" width="918" height="208" fill="#D6D0C4" stroke="#242424" stroke-width="2" />
   <line x1="3" y1="3" x2="917" y2="3" stroke="#EAE6DC" stroke-width="2" />
   <line x1="3" y1="3" x2="3" y2="207" stroke="#EAE6DC" stroke-width="2" />
@@ -31,7 +47,7 @@
   <text x="28" y="155" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="8" fill="#78966B">UUID_INDEXED_JOBS</text>
   <text x="28" y="167" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="8" fill="#D6D0C4">ACID_STATE_SYNC</text>
   <line x1="81" y1="112" x2="81" y2="128" stroke="#EAE6DC" stroke-width="1.5" stroke-dasharray="2,2" />
-  <line x1="140" y1="81" x2="168" y2="81" stroke="#78966B" stroke-width="2" />
+  <line x1="140" y1="81" x2="168" y2="81" stroke="#78966B" stroke-width="2" class="flow-wire" />
   <polygon points="168,77 176,81 168,85" fill="#78966B" />
   <rect x="176" y="50" width="190" height="124" fill="#242424" stroke="#78966B" stroke-width="1.5" />
   <rect x="176" y="50" width="190" height="16" fill="#78966B" />
@@ -44,7 +60,7 @@
   <text x="192" y="138" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="9" font-weight="bold" fill="#EAE6DC">WORKER_02: EXEC_ASYNC [OK]</text>
   <rect x="186" y="148" width="170" height="18" fill="#77766F" />
   <text x="192" y="160" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="9" fill="#EAE6DC">WORKER_03: STANDBY_IDLE</text>
-  <line x1="366" y1="112" x2="394" y2="112" stroke="#78966B" stroke-width="2" />
+  <line x1="366" y1="112" x2="394" y2="112" stroke="#78966B" stroke-width="2" class="flow-wire" />
   <polygon points="394,108 402,112 394,116" fill="#78966B" />
   <rect x="402" y="50" width="134" height="124" fill="#242424" stroke="#D6D0C4" stroke-width="1.5" />
   <text x="410" y="64" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="9" font-weight="bold" fill="#EAE6DC">REPORTLAB_ENGINE</text>

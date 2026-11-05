@@ -1,4 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 210" width="100%" height="100%">
+  <style>
+    @keyframes data-flow {
+      0% { stroke-dashoffset: 24; }
+      100% { stroke-dashoffset: 0; }
+    }
+    .flow-wire {
+      stroke-dasharray: 6, 4;
+      animation: data-flow 1.2s linear infinite;
+    }
+  </style>
+
   <rect x="1" y="1" width="918" height="208" fill="#D6D0C4" stroke="#242424" stroke-width="2" />
   <line x1="3" y1="3" x2="917" y2="3" stroke="#EAE6DC" stroke-width="2" />
   <line x1="3" y1="3" x2="3" y2="207" stroke="#EAE6DC" stroke-width="2" />
@@ -21,7 +32,7 @@
   <text x="30" y="124" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="9" fill="#78966B">+ Temp / Humidity</text>
   <text x="30" y="138" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="9" fill="#D6D0C4">+ Soil &amp; Crop Cost</text>
   <text x="30" y="152" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="9" fill="#D6D0C4">+ Historical Yield</text>
-  <line x1="152" y1="110" x2="174" y2="110" stroke="#78966B" stroke-width="2" />
+  <line x1="152" y1="110" x2="174" y2="110" stroke="#78966B" stroke-width="2" class="flow-wire" />
   <polygon points="174,106 182,110 174,114" fill="#78966B" />
   <rect x="182" y="48" width="150" height="124" fill="#242424" stroke="#D6D0C4" stroke-width="1.5" />
   <text x="190" y="62" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="9" font-weight="bold" fill="#EAE6DC">02_RANDOM_FOREST</text>
@@ -47,7 +58,7 @@
   <circle cx="318" cy="124" r="3" fill="#78966B" />
   <rect x="192" y="138" width="130" height="24" fill="#242424" stroke="#78966B" stroke-width="1" />
   <text x="198" y="153" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="9" fill="#78966B">YIELD / COST / RISK</text>
-  <line x1="332" y1="110" x2="354" y2="110" stroke="#78966B" stroke-width="2" />
+  <line x1="332" y1="110" x2="354" y2="110" stroke="#78966B" stroke-width="2" class="flow-wire" />
   <polygon points="354,106 362,110 354,114" fill="#78966B" />
   <rect x="362" y="48" width="174" height="124" fill="#242424" stroke="#78966B" stroke-width="1.5" />
   <text x="370" y="62" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="9" font-weight="bold" fill="#78966B">03_SHAP_EXPLAINER</text>
