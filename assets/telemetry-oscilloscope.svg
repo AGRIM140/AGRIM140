@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 180" width="100%" height="100%">
+  <rect x="1" y="1" width="918" height="178" fill="#D6D0C4" stroke="#242424" stroke-width="2" />
+  <line x1="3" y1="3" x2="917" y2="3" stroke="#EAE6DC" stroke-width="2" />
+  <line x1="3" y1="177" x2="917" y2="177" stroke="#77766F" stroke-width="2" />
+  <rect x="10" y="8" width="900" height="24" fill="#242424" />
+  <rect x="14" y="12" width="16" height="16" fill="#78966B" />
+  <text x="38" y="24" font-family="'Courier New', Courier, monospace" font-size="12" font-weight="bold" fill="#EAE6DC" letter-spacing="1">
+    OSCILLOSCOPE_CH_01 // TEMPORAL_CONTRIBUTION_ACTIVITY_MONITOR
+  </text>
+  <text x="735" y="24" font-family="'Courier New', Courier, monospace" font-size="11" font-weight="bold" fill="#78966B">
+    [SAMPLING: 100Hz // SYNC_OK]
+  </text>
+  <rect x="10" y="38" width="900" height="132" fill="#242424" stroke="#77766F" stroke-width="2" />
+  <g stroke="#77766F" stroke-width="0.5" stroke-dasharray="4,4" opacity="0.3">
+    <line x1="10" y1="64" x2="910" y2="64" />
+    <line x1="10" y1="90" x2="910" y2="90" />
+    <line x1="10" y1="116" x2="910" y2="116" />
+    <line x1="10" y1="142" x2="910" y2="142" />
+    <line x1="100" y1="38" x2="100" y2="170" />
+    <line x1="200" y1="38" x2="200" y2="170" />
+    <line x1="300" y1="38" x2="300" y2="170" />
+    <line x1="400" y1="38" x2="400" y2="170" />
+    <line x1="500" y1="38" x2="500" y2="170" />
+    <line x1="600" y1="38" x2="600" y2="170" />
+    <line x1="700" y1="38" x2="700" y2="170" />
+    <line x1="800" y1="38" x2="800" y2="170" />
+  </g>
+  <path d="M 20 145 L 60 140 L 95 142 L 130 135 L 165 138 L 200 115 L 235 125 L 270 95 L 305 105 L 340 70 L 375 85 L 410 65 L 445 75 L 480 55 L 515 80 L 550 60 L 585 70 L 620 50 L 655 75 L 690 60 L 725 65 L 760 55 L 795 62 L 830 50 L 865 58 L 900 48" fill="none" stroke="#78966B" stroke-width="2.5" />
+  <polygon points="20,145 60,140 95,142 130,135 165,138 200,115 235,125 270,95 305,105 340,70 375,85 410,65 445,75 480,55 515,80 550,60 585,70 620,50 655,75 690,60 725,65 760,55 795,62 830,50 865,58 900,48 900,165 20,165" fill="#78966B" opacity="0.12" />
+  <g fill="#EAE6DC">
+    <circle cx="200" cy="115" r="3" />
+    <circle cx="270" cy="95" r="3" />
+    <circle cx="340" cy="70" r="3" />
+    <circle cx="410" cy="65" r="3" />
+    <circle cx="480" cy="55" r="3" />
+    <circle cx="550" cy="60" r="3" />
+    <circle cx="620" cy="50" r="3" />
+    <circle cx="690" cy="60" r="3" />
+    <circle cx="760" cy="55" r="3" />
+    <circle cx="830" cy="50" r="3.5" fill="#78966B" stroke="#EAE6DC" stroke-width="1.5" />
+    <circle cx="900" cy="48" r="4" fill="#607D8B" stroke="#EAE6DC" stroke-width="1.5" />
+  </g>
+  <rect x="25" y="46" width="190" height="20" fill="#242424" stroke="#607D8B" stroke-width="1" />
+  <text x="32" y="60" font-family="'Courier New', Courier, monospace" font-size="9" font-weight="bold" fill="#607D8B">
+    TIME_BASE: 1W/DIV | V_SCALE: COMMITS
+  </text>
+  <text x="25" y="162" font-family="'Courier New', Courier, monospace" font-size="9" fill="#77766F">
+    Q1_INITIALIZE
+  </text>
+  <text x="280" y="162" font-family="'Courier New', Courier, monospace" font-size="9" fill="#77766F">
+    Q2_SYSTEMS_R&amp;D
+  </text>
+  <text x="560" y="162" font-family="'Courier New', Courier, monospace" font-size="9" fill="#77766F">
+    Q3_ROBOTICS_SCALE
+  </text>
+  <text x="810" y="162" font-family="'Courier New', Courier, monospace" font-size="9" font-weight="bold" fill="#78966B">
+    Q4_DEPLOYMENT [HIGH]
+  </text>
+</svg>

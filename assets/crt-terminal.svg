@@ -28,7 +28,7 @@
     agrim@workstation:~$ <tspan fill="#EAE6DC">systemctl status active_deployment.service</tspan>
   </text>
   <text x="28" y="192" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="13" fill="#607D8B">
-    ● pentagon-rugged-systems.service — A-IMCS & AGVS Autonomous Perception Stack
+    ● pentagon-rugged-systems.service — A-IMCS &amp; AGVS Autonomous Perception Stack
   </text>
   <text x="28" y="212" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="12" fill="#77766F">
     Loaded: active (running) // PSP-MobileNet | LiDAR Fusion | ROS 2 | Gazebo

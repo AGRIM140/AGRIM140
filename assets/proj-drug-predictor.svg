@@ -7,7 +7,7 @@
   <rect x="10" y="8" width="900" height="24" fill="#242424" />
   <rect x="14" y="12" width="16" height="16" fill="#607D8B" />
   <text x="38" y="24" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="12" font-weight="bold" fill="#EAE6DC" letter-spacing="1">
-    SCHEMATIC_05 // DRUG_RATING_PRED: REGRESSION & STREAMLIT INFERENCE CONSOLE
+    SCHEMATIC_05 // DRUG_RATING_PRED: REGRESSION &amp; STREAMLIT INFERENCE CONSOLE
   </text>
   <text x="745" y="24" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" font-weight="bold" fill="#607D8B">
     [SYS_MODE: VERIFIED]
@@ -52,7 +52,7 @@
   <rect x="396" y="128" width="98" height="12" fill="#78966B" />
   <text x="396" y="153" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="8" font-weight="bold" fill="#78966B">REALTIME_INFERENCE: OK</text>
   <text x="22" y="191" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="10" fill="#77766F">
-    BUS_05 // DATASET-DRIVEN PHARMACEUTICAL RATING REGRESSION & UI
+    BUS_05 // DATASET-DRIVEN PHARMACEUTICAL RATING REGRESSION &amp; UI
   </text>
   <rect x="560" y="38" width="350" height="162" fill="#EAE6DC" stroke="#242424" stroke-width="2" />
   <rect x="560" y="38" width="350" height="24" fill="#607D8B" stroke="#242424" stroke-width="1.5" />
@@ -70,6 +70,6 @@
   <line x1="572" y1="154" x2="896" y2="154" stroke="#77766F" stroke-width="1" />
   <rect x="572" y="164" width="324" height="24" fill="#242424" />
   <text x="582" y="180" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="10" font-weight="bold" fill="#78966B">
-    OUTPUT: INTERACTIVE RATING & TREND ANALYSIS
+    OUTPUT: INTERACTIVE RATING &amp; TREND ANALYSIS
   </text>
 </svg>

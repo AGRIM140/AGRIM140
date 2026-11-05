@@ -7,7 +7,7 @@
   <rect x="10" y="8" width="900" height="24" fill="#242424" />
   <rect x="14" y="12" width="16" height="16" fill="#78966B" />
   <text x="38" y="24" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="12" font-weight="bold" fill="#EAE6DC" letter-spacing="1">
-    SCHEMATIC_03 // SMART_CROP: ENSEMBLE YIELD, RISK & SHAP XAI ENGINE
+    SCHEMATIC_03 // SMART_CROP: ENSEMBLE YIELD, RISK &amp; SHAP XAI ENGINE
   </text>
   <text x="745" y="24" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" font-weight="bold" fill="#607D8B">
     [SYS_MODE: VERIFIED]
@@ -19,7 +19,7 @@
   <text x="36" y="85" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="9" font-weight="bold" fill="#EAE6DC">WEATHER_API_SYNC</text>
   <text x="30" y="110" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="9" fill="#78966B">+ Precipitation</text>
   <text x="30" y="124" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="9" fill="#78966B">+ Temp / Humidity</text>
-  <text x="30" y="138" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="9" fill="#D6D0C4">+ Soil & Crop Cost</text>
+  <text x="30" y="138" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="9" fill="#D6D0C4">+ Soil &amp; Crop Cost</text>
   <text x="30" y="152" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="9" fill="#D6D0C4">+ Historical Yield</text>
   <line x1="152" y1="110" x2="174" y2="110" stroke="#78966B" stroke-width="2" />
   <polygon points="174,106 182,110 174,114" fill="#78966B" />
@@ -62,7 +62,7 @@
   <text x="368" y="138" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="8" fill="#EAE6DC">TEMP_DEV</text>
   <rect x="428" y="129" width="27" height="11" fill="#77766F" />
   <text x="22" y="191" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="10" fill="#77766F">
-    BUS_03 // INTERPRETABLE AGRICULTURAL PROFITABILITY & RISK FORECASTING
+    BUS_03 // INTERPRETABLE AGRICULTURAL PROFITABILITY &amp; RISK FORECASTING
   </text>
   <rect x="560" y="38" width="350" height="162" fill="#EAE6DC" stroke="#242424" stroke-width="2" />
   <rect x="560" y="38" width="350" height="24" fill="#607D8B" stroke="#242424" stroke-width="1.5" />
@@ -76,10 +76,10 @@
   <text x="572" y="120" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" font-weight="bold" fill="#242424">EXTERNAL_I/O :</text>
   <text x="680" y="120" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" fill="#242424">Live Weather API Feed</text>
   <text x="572" y="140" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" font-weight="bold" fill="#242424">TARGETS      :</text>
-  <text x="680" y="140" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" fill="#242424">Yield, Cost & Net Profit</text>
+  <text x="680" y="140" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" fill="#242424">Yield, Cost &amp; Net Profit</text>
   <line x1="572" y1="154" x2="896" y2="154" stroke="#77766F" stroke-width="1" />
   <rect x="572" y="164" width="324" height="24" fill="#242424" />
   <text x="582" y="180" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="10" font-weight="bold" fill="#78966B">
-    OUTPUT: TRANSPARENT RISK & ROI PREDICTIONS
+    OUTPUT: TRANSPARENT RISK &amp; ROI PREDICTIONS
   </text>
 </svg>

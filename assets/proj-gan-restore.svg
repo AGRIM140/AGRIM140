@@ -7,7 +7,7 @@
   <rect x="10" y="8" width="900" height="24" fill="#242424" />
   <rect x="14" y="12" width="16" height="16" fill="#77766F" />
   <text x="38" y="24" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="12" font-weight="bold" fill="#EAE6DC" letter-spacing="1">
-    SCHEMATIC_04 // GAN_IMG_RESTORE: ADVERSARIAL RESTORATION & UPSCALING SUITE
+    SCHEMATIC_04 // GAN_IMG_RESTORE: ADVERSARIAL RESTORATION &amp; UPSCALING SUITE
   </text>
   <text x="740" y="24" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" font-weight="bold" fill="#D6D0C4">
     [SYS_MODE: RESEARCH]
@@ -66,7 +66,7 @@
   <text x="424" y="153" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="8" fill="#EAE6DC">SHARP_EDGES: OK</text>
   <text x="424" y="164" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="8" fill="#78966B">ARTIFACT_FREE</text>
   <text x="22" y="191" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="10" fill="#77766F">
-    BUS_04 // PYTORCH DEEP GENERATIVE IMAGE RESTORATION & ENHANCEMENT
+    BUS_04 // PYTORCH DEEP GENERATIVE IMAGE RESTORATION &amp; ENHANCEMENT
   </text>
   <rect x="560" y="38" width="350" height="162" fill="#EAE6DC" stroke="#242424" stroke-width="2" />
   <rect x="560" y="38" width="350" height="24" fill="#607D8B" stroke="#242424" stroke-width="1.5" />
@@ -76,7 +76,7 @@
   <text x="572" y="80" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" font-weight="bold" fill="#242424">DL_FRAMEWORK :</text>
   <text x="680" y="80" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" fill="#242424">PyTorch (CUDA Tensor)</text>
   <text x="572" y="100" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" font-weight="bold" fill="#242424">UPSCALING    :</text>
-  <text x="680" y="100" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" fill="#242424">SRGAN & CycleGAN</text>
+  <text x="680" y="100" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" fill="#242424">SRGAN &amp; CycleGAN</text>
   <text x="572" y="120" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" font-weight="bold" fill="#242424">DENOISING    :</text>
   <text x="680" y="120" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" fill="#242424">Noise2Noise GAN</text>
   <text x="572" y="140" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" font-weight="bold" fill="#242424">DEBLURRING   :</text>

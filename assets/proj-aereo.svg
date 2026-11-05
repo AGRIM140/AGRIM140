@@ -75,6 +75,6 @@
   <line x1="572" y1="154" x2="896" y2="154" stroke="#77766F" stroke-width="1" />
   <rect x="572" y="164" width="324" height="24" fill="#242424" />
   <text x="582" y="180" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="10" font-weight="bold" fill="#78966B">
-    OUTPUT: ASYNC BATCH GENERATION & POLLING API
+    OUTPUT: ASYNC BATCH GENERATION &amp; POLLING API
   </text>
 </svg>

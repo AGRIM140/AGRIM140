@@ -228,7 +228,7 @@ TECHNICAL_SPECIFICATION:
   </table>
 </details>
 
-<details>
+<details open>
   <summary><kbd>DIR_02</kbd> <strong><code>/srv/backend/aereo</code> — Aereo: Bulk Certificate Generation System</strong></summary>
   <br/>
   <img src="./assets/proj-aereo.svg" width="100%" alt="Aereo System Schematic" />
@@ -253,7 +253,7 @@ TECHNICAL_SPECIFICATION:
   </table>
 </details>
 
-<details>
+<details open>
   <summary><kbd>DIR_03</kbd> <strong><code>/usr/ml/smart-crop</code> — Smart Crop Profit &amp; Risk Prediction System</strong></summary>
   <br/>
   <img src="./assets/proj-smart-crop.svg" width="100%" alt="Smart Crop System Schematic" />
@@ -511,30 +511,26 @@ TECHNICAL_SPECIFICATION:
     <td width="50%" align="center" valign="middle">
       <code>[MON_01] // RESOURCE_UTILIZATION_&_COMMITS (AGRIM140)</code><br/><br/>
       <a href="https://github.com/AGRIM140">
-        <img src="https://github-readme-stats.vercel.app/api?username=AGRIM140&show_icons=true&bg_color=EAE6DC&title_color=242424&text_color=242424&icon_color=607D8B&border_color=242424&border_radius=0&hide_border=false" width="100%" alt="GitHub System Statistics" />
+        <img src="https://github-readme-stats-anuraghazra1.vercel.app/api?username=AGRIM140&show_icons=true&bg_color=EAE6DC&title_color=242424&text_color=242424&icon_color=607D8B&border_color=242424&border_radius=0&hide_border=false" width="100%" alt="GitHub System Statistics" />
       </a>
     </td>
     <td width="50%" align="center" valign="middle">
       <code>[MON_02] // LANGUAGE_ALLOCATION_DISTRIBUTION</code><br/><br/>
       <a href="https://github.com/AGRIM140">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AGRIM140&layout=compact&langs_count=6&bg_color=EAE6DC&title_color=242424&text_color=242424&border_color=242424&border_radius=0&hide_border=false" width="100%" alt="Top Languages Distribution" />
+        <img src="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=AGRIM140&layout=compact&langs_count=6&bg_color=EAE6DC&title_color=242424&text_color=242424&border_color=242424&border_radius=0&hide_border=false" width="100%" alt="Top Languages Distribution" />
       </a>
     </td>
   </tr>
   <tr>
     <td colspan="2" align="center" valign="middle">
       <code>[MON_03] // CONTINUOUS_UPTIME_STREAK_COUNTER</code><br/><br/>
-      <a href="https://github.com/AGRIM140">
-        <img src="https://streak-stats.demolab.com?user=AGRIM140&background=EAE6DC&border=242424&stroke=77766F&ring=607D8B&fire=78966B&currStreakNum=242424&sideNums=242424&currStreakLabel=607D8B&sideLabels=77766F&dates=77766F&border_radius=0" width="65%" alt="GitHub Contribution Streak" />
-      </a>
+      <img src="./assets/telemetry-streak.svg" width="100%" alt="GitHub Contribution Streak Counter" />
     </td>
   </tr>
   <tr>
     <td colspan="2" align="center" valign="middle">
       <code>[MON_04] // TEMPORAL_CONTRIBUTION_OSCILLOSCOPE</code><br/><br/>
-      <a href="https://github.com/AGRIM140">
-        <img src="https://github-readme-activity-graph.vercel.app/graph?username=AGRIM140&bg_color=EAE6DC&color=242424&line=607D8B&point=78966B&area=true&area_color=77766F&border_color=242424&hide_border=false&radius=0" width="98%" alt="Contribution Activity Graph" />
-      </a>
+      <img src="./assets/telemetry-oscilloscope.svg" width="100%" alt="Temporal Contribution Activity Oscilloscope" />
     </td>
   </tr>
 </table>
@@ -549,7 +545,7 @@ TECHNICAL_SPECIFICATION:
   <img src="./assets/crt-terminal.svg" width="100%" alt="CRT Terminal Session — agrim@workstation" />
 </div>
 
-<details>
+<details open>
   <summary><kbd>[TTY_RAW_BUFFER]</kbd> <code>View Plaintext Copyable Session Log (/dev/tty1)</code></summary>
   <pre lang="bash">
 agrim@workstation:~$ whoami

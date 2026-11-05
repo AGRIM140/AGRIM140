@@ -28,7 +28,7 @@
   <line x1="196" y1="76" x2="196" y2="140" stroke="#77766F" stroke-width="1" />
   <path d="M 196 110 Q 220 80 244 110 T 292 110 T 334 95" fill="none" stroke="#78966B" stroke-width="2" />
   <path d="M 196 125 Q 220 95 244 125 T 292 125 T 334 115" fill="none" stroke="#607D8B" stroke-width="1.5" stroke-dasharray="2,2" />
-  <text x="196" y="156" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="8" fill="#78966B">TEMP & PRESSURE OSCILLATION</text>
+  <text x="196" y="156" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="8" fill="#78966B">TEMP &amp; PRESSURE OSCILLATION</text>
   <line x1="348" y1="110" x2="370" y2="110" stroke="#78966B" stroke-width="2" />
   <polygon points="370,106 378,110 370,114" fill="#78966B" />
   <rect x="378" y="48" width="158" height="124" fill="#242424" stroke="#78966B" stroke-width="1.5" />
@@ -41,7 +41,7 @@
   <text x="398" y="128" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="8" fill="#D6D0C4">SERVERLESS // AUTO-SCALE</text>
   <text x="398" y="138" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="8" fill="#EAE6DC">STATUS: ONLINE</text>
   <text x="22" y="191" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="10" fill="#77766F">
-    BUS_07 // CLOUD-NATIVE WEATHER INTELLIGENCE & MULTIVARIATE FORECASTING
+    BUS_07 // CLOUD-NATIVE WEATHER INTELLIGENCE &amp; MULTIVARIATE FORECASTING
   </text>
   <rect x="560" y="38" width="350" height="162" fill="#EAE6DC" stroke="#242424" stroke-width="2" />
   <rect x="560" y="38" width="350" height="24" fill="#607D8B" stroke="#242424" stroke-width="1.5" />

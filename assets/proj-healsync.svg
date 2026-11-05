@@ -19,7 +19,7 @@
   <text x="36" y="85" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="8" font-weight="bold" fill="#EAE6DC">SPRING BOOT / FASTAPI</text>
   <text x="30" y="110" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="9" fill="#78966B">/api/v1/patient/eval</text>
   <text x="30" y="125" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="9" fill="#D6D0C4">REST Payload Routing</text>
-  <text x="30" y="140" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="9" fill="#D6D0C4">Token Auth & SSL</text>
+  <text x="30" y="140" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="9" fill="#D6D0C4">Token Auth &amp; SSL</text>
   <line x1="152" y1="110" x2="174" y2="110" stroke="#78966B" stroke-width="2" />
   <polygon points="174,106 182,110 174,114" fill="#78966B" />
   <rect x="182" y="48" width="150" height="124" fill="#242424" stroke="#D6D0C4" stroke-width="1.5" />
@@ -51,7 +51,7 @@
   <text x="368" y="120" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="8" fill="#EAE6DC">DOSAGE_LEVEL</text>
   <rect x="455" y="111" width="42" height="11" fill="#607D8B" />
   <text x="22" y="191" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="10" fill="#77766F">
-    BUS_06 // EXPLAINABLE CLINICAL DECISION SUPPORT & DRUG SUITABILITY
+    BUS_06 // EXPLAINABLE CLINICAL DECISION SUPPORT &amp; DRUG SUITABILITY
   </text>
   <rect x="560" y="38" width="350" height="162" fill="#EAE6DC" stroke="#242424" stroke-width="2" />
   <rect x="560" y="38" width="350" height="24" fill="#607D8B" stroke="#242424" stroke-width="1.5" />

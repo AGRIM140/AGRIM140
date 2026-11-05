@@ -5,7 +5,7 @@
   <rect x="10" y="8" width="140" height="30" fill="#242424" />
   <text x="22" y="28" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="14" font-weight="bold" fill="#78966B">SEC_03 // SYS</text>
   <text x="166" y="28" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="15" font-weight="bold" fill="#242424" letter-spacing="1.5">
-    SYSTEM_INFORMATION & OPERATOR_ARCHITECTURE
+    SYSTEM_INFORMATION &amp; OPERATOR_ARCHITECTURE
   </text>
   <rect x="760" y="11" width="146" height="24" fill="#EAE6DC" stroke="#242424" stroke-width="1.5" />
   <text x="772" y="27" font-family="&#39;Courier New&#39;, Courier, monospace" font-size="11" font-weight="bold" fill="#242424">IRQ_03: MOUNTED</text>
